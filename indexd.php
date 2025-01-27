@@ -11,7 +11,7 @@
     </head>
     <body>
         <?php
-            $nome = isset($_GET['nome']) ? htmlspecialchars($_GET['nome']) :'Intruso';
+            $nome = isset($_GET['nome']) ? htmlspecialchars($_GET['nome']) :'Intruso/visitante';
 
         
         ?>
